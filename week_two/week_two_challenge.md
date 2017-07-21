@@ -1,9 +1,12 @@
 # Week Two Challenge
 
-Complete each of the exercises below.
+Complete as many exercises below as possible. At the very least, you need to complete the first exercise in order to consider this challenge successful.
 #### **Pro-Tips:**
   - You can run your files from the command line using node (e.g. `node my_file.js`)
   - Don't forget that you can print something to your terminal window using `console.log()` (e.g. `console.log("Hello World!");`)
+
+## API Request
+Open `api_request.js` and follow the directions in that file for tasks #1 and #2. Don't forget to run the file locally to check that you've done the tasks correctly!
 
 ## Haxor
 Create a file called `haxor.js`.
