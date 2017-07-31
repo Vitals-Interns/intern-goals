@@ -4,7 +4,7 @@
 // * Using that list, make a request to the giphy random endpoint (see your Hubot code) to get a gif url for each character in the list
 // * Your function should print out all of the urls at once
 
-// If you're not sure what to do, refer to the week
+// If you're not sure what to do, refer to the week two api_request.js challenge :-)
 
 var request = require('request');
 
