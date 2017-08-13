@@ -2,9 +2,9 @@
 
 Complete as many exercises as you can before the week is through. Remember to READ AND FOLLOW THE DIRECTIONS.
 
-We will review all of the challenges on Friday, prior to your evaluation.
+We will review all of the challenges on Thursday afternoon, prior to your evaluation.
 
-## 1. Initial Pull Request
+## 1. Initial Pull Request (Monday)
 - In the final_challenges directory, create a directory named after yourself.
 - Copy putin.js, kanye.js, and parking_violations.js to your directory.
 - Make a new branch named after yourself.
@@ -12,20 +12,23 @@ We will review all of the challenges on Friday, prior to your evaluation.
 - Make a pull request.
 - Once someone has approved your request, merge your PR and delete your branch.
 
-## 2. Putin
+## 2. Putin (Tuesday)
 - Open the putin.js file within your directory and follow the directions inside.
+- Don't forget to run your file to test that your code works! Run it in your terminal: node putin.js
 - Make a new branch called <your_name>_putin, and add and commit your changes.
 - Make a pull request.
 - Once someone has approved your request, merge your PR and delete your branch.
 
-## 3. Kanye
+## 3. Kanye (Wednesday)
 - Open the kanye.js file within your directory and follow the directions inside.
+- Don't forget to run your file to test that your code works! Run it in your terminal: node kanye.js
 - Make a new branch called <your_name>_kanye, and add and commit your changes.
 - Make a pull request.
 - Once someone has approved your request, merge your PR and delete your branch.
 
-## 4. Parking Violations
+## 4. Parking Violations (Thursday)
 - Open the parking_violations.js file within your directory and follow the directions inside.
+- Don't forget to run your file to test that your code works! Run it in your terminal: node parking_violations.js
 - Make a new branch called <your_name>_parking_violations, and add and commit your changes.
 - Make a pull request.
 - Once someone has approved your request, merge your PR and delete your branch.
