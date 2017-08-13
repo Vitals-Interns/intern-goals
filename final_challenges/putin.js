@@ -4,6 +4,8 @@ putinsBrain = {
   tortureCount: 931
 }
 
+// Below each comment below, write code that executes the directions in the comment, using the data above.
+
 // Print the launch code to the console.
 
 // Add "Donald Trump" as one of Putin's BFFs.
