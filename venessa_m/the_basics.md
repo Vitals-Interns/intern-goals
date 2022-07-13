@@ -118,6 +118,7 @@ The value of the index number of "Michelangelo" is 2.
 **Answer 8A:**
 ```ruby
 # write your code here
+puts jurassic_park["Triceratops"] 
 ```
 
 * In Ruby, write code to add "Dr. Satler" to the "Humans" of `jurassic_park`.
