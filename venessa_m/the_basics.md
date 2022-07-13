@@ -148,6 +148,16 @@ end
 
 **Answer 9:**
 
+Output:
+
+Leonardo
+Raphael
+Michelangelo
+Donatello
+
+I think the outcome would be an output of every object in the array. Since this is a while loop that will continue until *right before* x = 4, the equation x = x + 1 will continue computing 'puts turtle[x]' for the indexes 0 to 3 until 'puts turtle[x]' equals 3. 
+
+
 
 ## Question 11
 
