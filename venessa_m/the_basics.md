@@ -68,13 +68,13 @@ food = "walnut"
 
 if food == "walnut"
   puts "I'm allergic!"
-end
+ends
 ```
 
 If you ran this code, what would be the output? Explain your answer.
 
 **Answer 5:**
-The output of this code would be "I'm allergic!" because the variable food is assigned to the string, "walnut", which fits the conditional of food == "walnut" making the statement true. Thus, the output is "I'm allergic!".
+
 
 ## Question 6
 
