@@ -59,7 +59,7 @@ Imagine that you take the code from this question, save it to a file called `sus
 What would be the output? Explain your answer.
 
 **Answer 4:**
-
+The output would be "sushi is delicious". This is because since the first conditional, If x == 3 is false, since x = 2, the program will follow the second conditional, which is true, since x is greater than 0 (x = 2). Thus, the program will output "sushi is delicious" rather than "sushi is tasty."
 
 ## Question 5
 
