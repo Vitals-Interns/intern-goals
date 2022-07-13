@@ -126,6 +126,8 @@ puts jurassic_park["Triceratops"]
 **Answer 8B:**
 ```ruby
 # write your code here
+jurassic_park["Humans"].push 'Dr. Satler'
+
 ```
 
 ## Question 9
