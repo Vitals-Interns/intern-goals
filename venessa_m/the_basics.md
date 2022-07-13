@@ -13,7 +13,7 @@ a = b
 At the end of this program, what are the values of a and b? Try to explain, in plain English, how you got your answer for each one.
 
 **Answer 1:**
-
+At the end of this program, the value of a and b is 4. This is because a is assigned to 5, and then b is assigned to 4, but at the last line, a is assigned to the value of b, which is 4. This means that a=b will return 4.
 
 ## Question 2
 
@@ -28,7 +28,7 @@ e = 3
 At the end of this program, what are the values of e, f, and g? Try to explain, in plain English, how you got your answer for each one.
 
 **Answer 2:**
-
+By the end of the program, the value of e is 3. This is because e is only assigned to 3 and vice versa throughout the program. By the end of the program, the value of f is 9. This can be explained with the same reasoning as e = 3. By the end of the program, the value of g is 12. This is because the variables f and e are assigned to 9 and 3, and because they're being added to each other to equal g, 9 + 3 = 12. Thus, g = 12.
 
 ## Question 3
 
