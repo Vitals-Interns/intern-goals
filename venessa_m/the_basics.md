@@ -40,7 +40,7 @@ weather == "cloudy"
 What is the difference between these two statements? Explain your answer.
 
 **Answer 3:**
-
+The difference between these two statements is that the first is assignment of the variable, weather, to the string, "cloudy". The second is a boolean, where the variable weather is being compared to the string "cloudy" to assess whether the statement is true or false. Because weather was assigned to cloudy in the first statement, the second statment is a true statement.
 
 ## Question 4
 
