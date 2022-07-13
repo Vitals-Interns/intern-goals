@@ -74,7 +74,7 @@ ends
 If you ran this code, what would be the output? Explain your answer.
 
 **Answer 5:**
-
+The output of this code would be "I'm allergic!" because the variable food is assigned to the string, "walnut", which fits the conditional of food == "walnut" making the statement true. Thus, the output is "I'm allergic!".
 
 ## Question 6
 
@@ -85,7 +85,16 @@ If you ran this code, what would be the output? Explain your answer.
 What would happen here and why? How should I change this code to get an output of 14?
 
 **Answer 6:**
+An error would occur because a string cannot be added to an integer like this. A way to change this code would be to simply remove the quotations around 4 to make it an integer, or one can convert the string "4" into an integer using the .to_i method. 
 
+An example of this is:
+```ruby
+  four = "4"
+num = four.to_i
+a = num + 10
+puts a
+```
+^This program will output 14.
 
 ## Question 7
 
