@@ -103,9 +103,9 @@ puts a
 ```
 
 What is the index value of "Michelangelo"?
-
+ 
 **Answer 7:**
-
+The value of the index number of "Michelangelo" is 2.
 
 ## Questions 8
 
