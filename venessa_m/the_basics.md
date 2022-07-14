@@ -165,9 +165,12 @@ I think the outcome would be an output of every object in the array. Since this 
 
 **Answer 11:**
 ```ruby
+
 def names
-  # write your code in here
+  ["Eleven", "Mike"]
+
 end
+p names
 ```
 
 ## Question 12
@@ -177,4 +180,5 @@ end
 **Answer 12:**
 ```ruby
 # write your code here
+
 ```
