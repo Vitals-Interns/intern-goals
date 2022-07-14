@@ -179,6 +179,12 @@ p names
 
 **Answer 12:**
 ```ruby
+weather = "It is very cloudy today."
+def caps(weather)
+  weather.upcase
+
+end
+puts caps(weather)
 # write your code here
 
 ```
