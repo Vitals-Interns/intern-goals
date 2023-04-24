@@ -3,10 +3,12 @@
 The implementation managers for one of our biggest clients, HCSC, want to be able to run a script that will retrieve the dates of the most recent API deploys for each of HCSC's environments.
 
 Your script should:
-- Make a request to [the where endpoint](http://app-ops.aws.mdx.med/where?client=hcsc) to obtain relevant client information (if, due to network issues, you are unable to access that endpoint, you may make a request to [this reference](https://gist.githubusercontent.com/gretchenziegler/853c4f709d45176aa44c8e5aee864cac/raw/010a4c44455ffc93b8039935cfc4e0dff41ae502/hcsc.json) instead)
+
+- Make a request to [the where endpoint](https://gist.githubusercontent.com/gretchenziegler/853c4f709d45176aa44c8e5aee864cac/raw/010a4c44455ffc93b8039935cfc4e0dff41ae502/hcsc.json) to obtain relevant client information
 - Output an array that lists the date of each environment's most recent **platform-api** deploy
 
 Sample output:
+
 ```
 [
   "2017-10-31T16:10:22.600Z",
