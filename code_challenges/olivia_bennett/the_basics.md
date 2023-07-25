@@ -40,7 +40,7 @@ weather == "cloudy"
 What is the difference between these two statements? Explain your answer.
 
 **Answer 3:**
-
+In the first statement they state that cloudy is the variable for the weather however in the second statement it shows that "cloudy" is the current weather status.
 
 ## Question 4
 
@@ -59,7 +59,7 @@ Imagine that you take the code from this question, save it to a file called `sus
 What would be the output? Explain your answer.
 
 **Answer 4:**
-
+The output of this would by a command not found. This is because there was no specific command given to find a certain directory or repository.
 
 ## Question 5
 
@@ -74,7 +74,7 @@ end
 If you ran this code, what would be the output? Explain your answer.
 
 **Answer 5:**
-
+When this code is run siince the variable of walnut was inputed, the system would return saying "Im allergic"
 
 ## Question 6
 
@@ -83,9 +83,15 @@ If you ran this code, what would be the output? Explain your answer.
 ```
 
 What would happen here and why? How should I change this code to get an output of 14?
-
+If this code were put into the terminal it would return with no output meaning that the code would not run at all. In order to change this, the code would need three variables, two for the adding numbers and one for the final sum. In addition it would need a return value.
 **Answer 6:**
+a = "4"
+b = "10"
+c = "14"
 
+if "a + b" equal? "c" 
+  return "c" 
+ end
 
 ## Question 7
 
@@ -94,9 +100,8 @@ What would happen here and why? How should I change this code to get an output o
 ```
 
 What is the index value of "Michelangelo"?
-
 **Answer 7:**
-
+The index value of "Michaelangelo" would be 3
 
 ## Questions 8
 
@@ -108,15 +113,20 @@ What is the index value of "Michelangelo"?
 
 **Answer 8A:**
 ```ruby
-# write your code here
-```
+def Triceratops
+ jurassic_park[0][:triceraptops].count
+end```
 
 * In Ruby, write code to add "Dr. Satler" to the "Humans" of `jurassic_park`.
 
 **Answer 8B:**
 ```ruby
-# write your code here
-```
+jurassic_park = { "T-Rex" => 1, "Triceratops" => 4, "Velociraptors" => 6, "Humans" => ["Dr. Malcolm", "Dr. Grant"] }
+
+if "Humans" => ["Dr.Malcolm", "Dr.Grant"]"
+  then ;"Dr_Satler"
+end
+end```
 
 ## Question 9
 
@@ -135,7 +145,7 @@ end
 * What do you expect the outcome will be? Explain your answer.
 
 **Answer 9:**
-
+In the case that I ran into this code I believe the output would be the variables being repeated this is cause the X value is set to being less than the 4 values which are shown.
 
 ## Question 11
 
@@ -143,8 +153,13 @@ end
 
 **Answer 11:**
 ```ruby
-def names
-  # write your code in here
+names= "kyle, chad"
+def 'names'
+  name.each | word | do
+   word[:names].each | name | do
+    puts name
+    end
+  end
 end
 ```
 
@@ -154,5 +169,14 @@ end
 
 **Answer 12:**
 ```ruby
-# write your code here
-```
+str1 = "word"
+str2 = "word"
+str3 = "word"
+
+a = str1.upcase
+b = str2.upcase
+c = str3.upcase
+
+puts a
+puts b
+puts c```

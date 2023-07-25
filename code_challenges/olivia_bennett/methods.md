@@ -50,13 +50,38 @@ Method Man wants to dive into the Wu-Tang catalog and extract some sweet informa
 - Change the label for "Wu-Tang Forever" to "Sony".
 - Add the single "Out of the Woods" to the album "Eight Diagrams"
 
+print "Protect Ya Neck"
+print "RCA"
+print "Iron Flag"
+
+wu_tang.each | word | do
+ if word[:title] == "Wu-tang Forever"
+    word[:title] = "Sony"
+ end 
+end
 ## Real Deal
 
-1. Write a method, `single_sampler`, that takes a Wu-Tang album hash and prints out the names of all the singles.
+# Write a method, `single_sampler`, that takes a Wu-Tang album hash and prints out the names of all the singles.
+
+def 'single_sampler'
+  wu_tang.each | word | do
+   word[:singles].each | name | do
+    puts name
+    end
+  end
+end
 
 2. Write a method, `single_counter`, that returns the number of singles for a given Wu-Tang album.
 
+def single_counter
+ wu_tang[0][:singles].count
+end
+
 3. Write a method, `album length`, that returns an album's play time.
+
+def album_length
+ wu_tang [0] [:length]
+  end
 
 4. Write a method, `singlegram`, that returns a hash of the single count for the Wu-Tang discography, like so:
 
@@ -65,6 +90,20 @@ Method Man wants to dive into the Wu-Tang catalog and extract some sweet informa
     "Enter the Wu Tang" => 4,
     "Wu-Tang Forever" => 3,
   }
+  def singlegram
+   single_hash = {}
+   wu_tang.each | word | do
+     single_hash[word[:title]]=word[:singles].count
+    end
+    counter
+  end
 ```
 
 5. Write a method, `wu-marathon`, that returns the total playtime of all the Wu-Tang albums combined.
+  def wu_marathon
+  counter= 0
+  wu_tang.each | word | do
+   counter += wu_tang[:length].gsub(":00,"").to_i
+  wu_tang[:length]
+   
+

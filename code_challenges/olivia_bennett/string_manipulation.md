@@ -19,13 +19,17 @@ iverson_rant = "If I can't practice, I can't practice, man. If I'm hurt, I'm hur
 Programmatically manipulate `iverson_rant` to reflect the output above.
 
 ```ruby
-# write your code here
-```
+iverson_rant = "If I can't practice, I can't practice, man. If I'm hurt, I'm hurt. I mean simple as that. It ain't about that. I mean it's, it's not about that at all. You know what I'm saying. I mean, but it's, it's easy to, to talk about. It's easy to sum it up when you're just talking about practice. We're sitting in here, and I'm supposed to be the franchise player, and we in here talking about practice. I mean, listen, we're talking about practice, not a game, not a game, not a game, we talking about practice. Not a game. Not, not. Not the game that I go out there and die for and play every game like it's my last. Not the game, but we're talking about practice, man. I mean, how silly is that? And we talking about practice. I know I'm supposed to be there. I know I'm supposed to lead by example. I know that, and I'm not, I'm not shoving it aside, you know, like it don't mean anything. I know it's important, I do. I honestly do. But we're talking about practice, man. What are we talking about? We're talking about practice, man."
+if iverson_rant== "If I can't practice, I can't practice, man. If I'm hurt, I'm hurt. I mean simple as that. It ain't about that. I mean it's, it's not about that at all. You know what I'm saying. I mean, but it's, it's easy to, to talk about. It's easy to sum it up when you're just talking about practice. We're sitting in here, and I'm supposed to be the franchise player, and we in here talking about practice. I mean, listen, we're talking about practice, not a game, not a game, not a game, we talking about practice. Not a game. Not, not. Not the game that I go out there and die for and play every game like it's my last. Not the game, but we're talking about practice, man. I mean, how silly is that? And we talking about practice. I know I'm supposed to be there. I know I'm supposed to lead by example. I know that, and I'm not, I'm not shoving it aside, you know, like it don't mean anything. I know it's important, I do. I honestly do. But we're talking about practice, man. What are we talking about? We're talking about practice, man."
+  puts "IIcpIcpmIIhIhImsatIaatImiInatAaYkwIsImBiietttaIetsiuwyjtapWsihaIstbtfpawihtapImlwtapnagnagnagwtapNagNnNtgtIgotadfapeglimlNtgbwtapmImhsitAwtapIkIstbtIkIstlbeIktAinInsiayklidmaIkiiIdIhdBwtapmWawtaWtapm"
+end```
 
 2. Programmatically find out exactly how many times Iverson used the word 'practice' in his rant.
 
 ```ruby
-# write your code here
+iverson_rant = "If I can't practice, I can't practice, man. If I'm hurt, I'm hurt. I mean simple as that. It ain't about that. I mean it's, it's not about that at all. You know what I'm saying. I mean, but it's, it's easy to, to talk about. It's easy to sum it up when you're just talking about practice. We're sitting in here, and I'm supposed to be the franchise player, and we in here talking about practice. I mean, listen, we're talking about practice, not a game, not a game, not a game, we talking about practice. Not a game. Not, not. Not the game that I go out there and die for and play every game like it's my last. Not the game, but we're talking about practice, man. I mean, how silly is that? And we talking about practice. I know I'm supposed to be there. I know I'm supposed to lead by example. I know that, and I'm not, I'm not shoving it aside, you know, like it don't mean anything. I know it's important, I do. I honestly do. But we're talking about practice, man. What are we talking about? We're talking about practice, man."
+string =  "If I can't practice, I can't practice, man. If I'm hurt, I'm hurt. I mean simple as that. It ain't about that. I mean it's, it's not about that at all. You know what I'm saying. I mean, but it's, it's easy to, to talk about. It's easy to sum it up when you're just talking about practice. We're sitting in here, and I'm supposed to be the franchise player, and we in here talking about practice. I mean, listen, we're talking about practice, not a game, not a game, not a game, we talking about practice. Not a game. Not, not. Not the game that I go out there and die for and play every game like it's my last. Not the game, but we're talking about practice, man. I mean, how silly is that? And we talking about practice. I know I'm supposed to be there. I know I'm supposed to lead by example. I know that, and I'm not, I'm not shoving it aside, you know, like it don't mean anything. I know it's important, I do. I honestly do. But we're talking about practice, man. What are we talking about? We're talking about practice, man."
+puts string.count('practice')  
 ```
 
 ## Green Eggs and Ham
@@ -44,5 +48,10 @@ Programmatically do the following to the `sam_i_am` variable:
 Hint: You can chain substitutions!
 
 ```ruby
-# write your code here
-```
+sam_i_am = "I am Sam\nSam I am\nThat Sam-I-am!\nThat Sam-I-am!\nI do not like that Sam-I-am!\nDo you like green eggs and ham?\nI do not like them, Sam-I-am.\nI do not like\ngreen eggs and ham."
+sam = sam_i_am.split(" ").join("_")
+sam = sam_i_am.split("\n").join("*")
+sam2 = sam.split("Sam").join("Olivia")
+sam2 = sam2.split("o").join("0")
+sam3 = sam2.split("green").join("blue")
+print sam3```

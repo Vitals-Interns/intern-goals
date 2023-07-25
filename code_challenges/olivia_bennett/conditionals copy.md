@@ -23,7 +23,10 @@ Now, turn your color conditional into a method called `color_checker` that takes
 
 ```ruby
 def color_checker(color)
-  # write your code here
+
+color = "else"
+if color == "else"
+  puts "arguement"
 end
 ```
 
@@ -35,7 +38,15 @@ Create a Ruby method called `temperature_status` that takes three arguments: the
   - If the air conditioner is non-functional and the current temperature is below the the desired temperature, print the string "Fix the A/C whenever you have the chance. It's cool."
 
 ```ruby
-# write your code here
+def temperature_status(desired,current,condition)
+  if condition == true && current > desired
+    puts "turn on a/c, please"
+  elsif condition == false && current > desired
+    puts "Fix the a/c now! it's hot"
+  elsif condition == false && current < desired
+    puts "Fix the a/c whenever you have the chance. It's cool"
+  end
+end
 ```
 
 ## Palindrome Checker
@@ -43,5 +54,10 @@ Create a Ruby method called `temperature_status` that takes three arguments: the
 Create a Ruby method that takes a word or phrase and checks whether or not it's a palindrome (reads the same backward as forward).
 
 ```ruby
-# write your code here
-```
+def palindrome?(civic)
+ if civic== civic.reverse
+   return true
+ else
+   puts “civic is not a palindrome”
+ end
+end```
